@@ -38,22 +38,13 @@ img:hover{
   display: block;
 }
 
-.new a {
-  color: black;
-  background-color: white;
-  border: 0;
-  border-radius: 3px;
-  padding: 8px 10px;
-  text-decoration: none;
-}
-
-.new a:hover {
-  scale: 1.1!important;
-}
-
 .img {
   width: 50%;
   margin-top: -30px;
+}
+
+.img:hover{
+  scale: 1.1;
 }
 
 .lo {
@@ -117,32 +108,12 @@ textarea {
   text-decoration: none !important;
 }
 
-.form:hover {
-  scale: 1.1;
-}
-
-.profile:hover {
-  scale: 1.1;
-}
-
-.perfume:hover {
+.mobile img:hover{
   scale: 1.1;
 }
 
 .landing a {
   text-decoration: none !important;
-}
-
-.easy:hover {
-  scale: 1.1;
-}
-
-.flyo:hover {
-  scale: 1.1;
-}
-
-.loopstudio:hover {
-  scale: 1.1;
 }
 
 .footer #form:hover {
@@ -317,5 +288,10 @@ textarea {
 
   .call-mobile{
     display: block!important;
+  }
+
+  .mobile{
+    width: 50%!important;
+    margin-top: 20px!important;
   }
 }
